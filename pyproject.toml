@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "django_girls"
+version = "0.1.0"
+description = "This is a project built in Python with Django on the back-end, Jinja templates on the front-end, and Poetry for package and dependency management."
+authors = ["mdncs <madalinamaria.bumb@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+django = "^2.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
